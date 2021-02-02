@@ -48,21 +48,18 @@ public class UserJPAResource {
 
         return entity;
     }
-//
-//
-//    @PostMapping("/users")
-//    public ResponseEntity<Object> createUser(@Valid @RequestBody User user){
-//        User savedUser = daoService.addUser(user);
-//        URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(savedUser.getId()).toUri();
-//        return ResponseEntity.created(location).build();
-//    }
-//
-//    @DeleteMapping("/users/{id}")
-//    public void deleteUser(@PathVariable Integer id){
-//        User user = daoService.deleteOne(id);
-//        if(user==null){
-//            throw new UserNotFountException("id:"+id);
-//        }
-//    }
+
+
+    @PostMapping("/jpa/users")
+    public ResponseEntity<Object> createUser(@Valid @RequestBody User user){
+        User savedUser = userRepository.save(user);
+        URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(savedUser.getId()).toUri();
+        return ResponseEntity.created(location).build();
+    }
+
+    @DeleteMapping("/jpa/users/{id}")
+    public void deleteUser(@PathVariable Integer id){
+        userRepository.deleteById(id);
+    }
 
 }
