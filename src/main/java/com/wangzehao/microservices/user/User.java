@@ -2,14 +2,17 @@ package com.wangzehao.microservices.user;
 
 import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.wangzehao.microservices.post.Post;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Past;
 import javax.validation.constraints.Size;
 import java.util.Date;
+import java.util.List;
 
 //@JsonIgnoreProperties(value = {"id"})
 //@JsonFilter("UserFilter")
@@ -23,6 +26,8 @@ public class User {
     private String name;
     @Past
     private Date birthDate;
+    @OneToMany(mappedBy = "user")
+    private List<Post> posts;
 
     public User(){
 
