@@ -1,10 +1,13 @@
 package com.wangzehao.microservices.post;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.wangzehao.microservices.user.User;
+import net.minidev.json.annotate.JsonIgnore;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.*;
 
+@JsonIgnoreProperties(value = {"user"})
 @Entity
 public class Post {
 
@@ -12,17 +15,10 @@ public class Post {
     @GeneratedValue
     private Integer id;
 
-    public Post(){}
-
-    public Post(Integer id, String description, User user) {
-        this.id = id;
-        this.description = description;
-        this.user = user;
-    }
-
     private String description;
 
     @ManyToOne(fetch = FetchType.LAZY)
+    @JsonIgnore
     private User user;
 
     public void setId(Integer id) {
@@ -56,4 +52,5 @@ public class Post {
                 ", description='" + description + '\'' +
                 '}';
     }
+
 }

@@ -1,5 +1,7 @@
 package com.wangzehao.microservices.user;
 
+import com.wangzehao.microservices.post.Post;
+import com.wangzehao.microservices.post.PostRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
@@ -21,6 +23,8 @@ public class UserJPAResourceController {
     @Autowired
     private UserRepository userRepository;
 
+    @Autowired
+    private PostRepository postRepository;
 
     @GetMapping("/jpa/users")
     public List<User> retrieveAllUser(){
@@ -49,7 +53,6 @@ public class UserJPAResourceController {
         return entity;
     }
 
-
     @PostMapping("/jpa/users")
     public ResponseEntity<Object> createUser(@Valid @RequestBody User user){
         User savedUser = userRepository.save(user);
@@ -62,4 +65,25 @@ public class UserJPAResourceController {
         userRepository.deleteById(id);
     }
 
+
+    @GetMapping("/jpa/users/{id}/posts")
+    public List<Post> retrieveUserAllPosts(@PathVariable Integer id){
+        Optional<User> user = userRepository.findById(id);
+        if(!user.isPresent()){
+            throw new UserNotFountException("id:"+id);
+        }
+        return user.get().getPosts();
+    }
+
+    @PostMapping("/jpa/users/{id}/posts")
+    public ResponseEntity<Object> createPost(@PathVariable Integer id, @Valid @RequestBody Post post){
+        Optional<User> user = userRepository.findById(id);
+        if(!user.isPresent()){
+            throw new UserNotFountException("id:"+id);
+        }
+        post.setUser(user.get());
+        Post savedPost = postRepository.save(post);
+        URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(savedPost.getId()).toUri();
+        return ResponseEntity.created(location).build();
+    }
 }
