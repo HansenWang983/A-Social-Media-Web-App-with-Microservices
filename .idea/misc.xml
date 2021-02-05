@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/restful-services/pom.xml" />
         <option value="$PROJECT_DIR$/limit-services/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" />
       </list>
     </option>
   </component>
