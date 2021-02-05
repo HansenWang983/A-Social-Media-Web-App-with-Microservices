@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83878bd4-b4d6-4a27-9206-e1bbeb3db5ef" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1o1QIBwFNLdpNNZtEvSxI3oRllL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/restful-services/src/main/java/com/wangzehao/restfulservices" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.49760193" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/restful-services/src/main/java/com/wangzehao/restfulservices" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RestfulServicesApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LimitServicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="limit-services" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzehao.limitservices.LimitServicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroservicesApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="restful-web-services" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzehao.microservices.MicroservicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroservicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservices" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzehao.microservices.MicroservicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestfulServicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="restful-services" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzehao.restfulservices.RestfulServicesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83878bd4-b4d6-4a27-9206-e1bbeb3db5ef" name="Default Changelist" comment="" />
+      <created>1612451535030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612451535030</updated>
+      <workItem from="1612451536164" duration="560000" />
+      <workItem from="1612454087589" duration="13000" />
+      <workItem from="1612454185497" duration="1408000" />
+      <workItem from="1612532910458" duration="6000" />
+      <workItem from="1612532927907" duration="872000" />
+      <workItem from="1612533984210" duration="1426000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

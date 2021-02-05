@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="restful-services" />
+        <module name="microservices" />
+        <module name="limit-services" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="limit-services" target="11" />
+      <module name="microservices" target="1.8" />
+      <module name="restful-services" target="1.8" />
+      <module name="restful-web-services" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="limit-services" options="-parameters" />
+      <module name="microservices" options="-parameters" />
+      <module name="restful-services" options="-parameters" />
+      <module name="restful-web-services" options="-parameters" />
+    </option>
+  </component>
+</project>
