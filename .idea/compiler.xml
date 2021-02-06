@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="limit-services" />
         <module name="restful-services" />
         <module name="microservices" />
-        <module name="limit-services" />
+        <module name="spring-cloud-config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="microservices" target="1.8" />
       <module name="restful-services" target="1.8" />
       <module name="restful-web-services" target="1.8" />
+      <module name="spring-cloud-config-server" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -24,6 +26,7 @@
       <module name="microservices" options="-parameters" />
       <module name="restful-services" options="-parameters" />
       <module name="restful-web-services" options="-parameters" />
+      <module name="spring-cloud-config-server" options="-parameters" />
     </option>
   </component>
 </project>
