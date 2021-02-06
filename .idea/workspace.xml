@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83878bd4-b4d6-4a27-9206-e1bbeb3db5ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_55.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_1_3_201810200350_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_5_1_3_201810200350_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_7_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/limit-services/src/main/java/com/wangzehao/limitservices/configuration/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limit-services-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limit-services-qa.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limit-services/src/main/java/com/wangzehao/limitservices/controller/LimitsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/limit-services/src/main/java/com/wangzehao/limitservices/controller/LimitsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/limit-services/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/limit-services/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/com/wangzehao/springcloudconfigserver/SpringCloudConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/java/com/wangzehao/springcloudconfigserver/SpringCloudConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +126,7 @@
       <workItem from="1612454185497" duration="1408000" />
       <workItem from="1612532910458" duration="6000" />
       <workItem from="1612532927907" duration="872000" />
-      <workItem from="1612533984210" duration="7447000" />
+      <workItem from="1612533984210" duration="8154000" />
     </task>
     <servers />
   </component>
