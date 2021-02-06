@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83878bd4-b4d6-4a27-9206-e1bbeb3db5ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/wangzehao/currencyexchangeservice/currencyExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/wangzehao/currencyexchangeservice/currencyExchangeController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limit-services-dev.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limit-services-qa.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limit-services/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/limit-services/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +45,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -65,7 +71,7 @@
       <recent name="$PROJECT_DIR$/restful-services/src/main/java/com/wangzehao/restfulservices" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.LimitServicesApplication">
+  <component name="RunManager" selected="Spring Boot.CurrencyExchangeServiceApplication8000">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -77,23 +83,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CurrencyExchangeServiceApplication8000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="currency-exchange-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzehao.currencyexchangeservice.CurrencyExchangeServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrencyExchangeServiceApplication8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="currency-exchange-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzehao.currencyexchangeservice.CurrencyExchangeServiceApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LimitServicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="limit-services" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzehao.limitservices.LimitServicesApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MicroservicesApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="restful-web-services" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzehao.microservices.MicroservicesApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MicroservicesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="microservices" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzehao.microservices.MicroservicesApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,6 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CurrencyExchangeServiceApplication8000" />
+      <item itemvalue="Spring Boot.CurrencyExchangeServiceApplication8001" />
+      <item itemvalue="Spring Boot.LimitServicesApplication" />
+      <item itemvalue="Spring Boot.RestfulServicesApplication" />
+      <item itemvalue="Spring Boot.SpringCloudConfigServerApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -126,7 +142,7 @@
       <workItem from="1612454185497" duration="1408000" />
       <workItem from="1612532910458" duration="6000" />
       <workItem from="1612532927907" duration="872000" />
-      <workItem from="1612533984210" duration="8154000" />
+      <workItem from="1612533984210" duration="9847000" />
     </task>
     <servers />
   </component>
