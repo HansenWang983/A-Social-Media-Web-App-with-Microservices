@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="currency-exchange-service" />
         <module name="limit-services" />
         <module name="currency-conversion-service" />
+        <module name="spring-cloud-config-server" />
+        <module name="currency-exchange-service" />
         <module name="restful-services" />
         <module name="microservices" />
-        <module name="spring-cloud-config-server" />
+        <module name="naming-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="currency-exchange-service" target="11" />
       <module name="limit-services" target="11" />
       <module name="microservices" target="1.8" />
+      <module name="naming-server" target="11" />
       <module name="restful-services" target="1.8" />
       <module name="restful-web-services" target="1.8" />
       <module name="spring-cloud-config-server" target="11" />
@@ -30,6 +32,7 @@
       <module name="currency-exchange-service" options="-parameters" />
       <module name="limit-services" options="-parameters" />
       <module name="microservices" options="-parameters" />
+      <module name="naming-server" options="-parameters" />
       <module name="restful-services" options="-parameters" />
       <module name="restful-web-services" options="-parameters" />
       <module name="spring-cloud-config-server" options="-parameters" />

@@ -14,7 +14,9 @@
 
 
 
+Feign Client: Proxy Design 
 
+Feign allows you to write your own code on top of http libraries 
 
 
 
