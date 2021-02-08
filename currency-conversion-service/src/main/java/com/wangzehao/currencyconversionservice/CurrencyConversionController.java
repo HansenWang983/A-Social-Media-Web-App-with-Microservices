@@ -15,7 +15,23 @@ import java.util.HashMap;
 public class CurrencyConversionController {
 
     @Autowired
+    private CurrencyExchangeProxy currencyExchangeProxy;
+
+    @Autowired
     private Environment environment;
+
+    @GetMapping("/currency-conversion-feign/from/{from}/to/{to}/quantity/{quantity}")
+    public CurrencyConversion calculateCurrencyConversionByFeign(@PathVariable String from, @PathVariable String to, @PathVariable BigDecimal quantity){
+
+        CurrencyConversion currencyConversion = currencyExchangeProxy.retrieveExchangeValue(from ,to);
+
+        String env = environment.getProperty("local.server.port");
+        return new CurrencyConversion(currencyConversion.getId(),
+                from, to, quantity,
+                currencyConversion.getMultiple(),
+                quantity.multiply(currencyConversion.getMultiple()),
+                env+" feign");
+    }
 
     @GetMapping("/currency-conversion/from/{from}/to/{to}/quantity/{quantity}")
     public CurrencyConversion calculateCurrencyConversion(@PathVariable String from, @PathVariable String to, @PathVariable BigDecimal quantity){
@@ -32,6 +48,6 @@ public class CurrencyConversionController {
                 from, to, quantity,
                 currencyConversion.getMultiple(),
                 quantity.multiply(currencyConversion.getMultiple()),
-                env);
+                env+" rest template");
     }
 }
