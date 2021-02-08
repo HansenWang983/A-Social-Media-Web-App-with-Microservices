@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83878bd4-b4d6-4a27-9206-e1bbeb3db5ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/wangzehao/currencyconversionservice/CurrencyConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/wangzehao/currencyconversionservice/CurrencyConversionController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limit-services-dev.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limit-services-qa.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -144,7 +146,7 @@
       <workItem from="1612454185497" duration="1408000" />
       <workItem from="1612532910458" duration="6000" />
       <workItem from="1612532927907" duration="872000" />
-      <workItem from="1612533984210" duration="14538000" />
+      <workItem from="1612533984210" duration="14456000" />
     </task>
     <servers />
   </component>
