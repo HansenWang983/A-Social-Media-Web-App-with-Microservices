@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83878bd4-b4d6-4a27-9206-e1bbeb3db5ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/wangzehao/currencyexchangeservice/currencyExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/wangzehao/currencyexchangeservice/currencyExchangeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_27_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/wangzehao/currencyexchangeservice/currencyExchangeRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limit-services-dev.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limit-services-qa.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
@@ -14,6 +26,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/wangzehao/currencyexchangeservice/currencyExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/wangzehao/currencyexchangeservice/CurrencyExchange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/wangzehao/currencyexchangeservice/currencyExchangeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/wangzehao/currencyexchangeservice/currencyExchangeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CurrencyConversionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="currency-conversion-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzehao.currencyconversionservice.CurrencyConversionServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CurrencyExchangeServiceApplication8000" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="currency-exchange-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzehao.currencyexchangeservice.CurrencyExchangeServiceApplication" />
@@ -127,6 +150,7 @@
       <item itemvalue="Spring Boot.LimitServicesApplication" />
       <item itemvalue="Spring Boot.RestfulServicesApplication" />
       <item itemvalue="Spring Boot.SpringCloudConfigServerApplication" />
+      <item itemvalue="Spring Boot.CurrencyConversionServiceApplication" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -142,7 +166,7 @@
       <workItem from="1612454185497" duration="1408000" />
       <workItem from="1612532910458" duration="6000" />
       <workItem from="1612532927907" duration="872000" />
-      <workItem from="1612533984210" duration="9847000" />
+      <workItem from="1612533984210" duration="13549000" />
     </task>
     <servers />
   </component>

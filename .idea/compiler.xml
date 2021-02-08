@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="currency-exchange-service" />
         <module name="limit-services" />
+        <module name="currency-conversion-service" />
         <module name="restful-services" />
         <module name="microservices" />
         <module name="spring-cloud-config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="currency-conversion-service" target="11" />
       <module name="currency-exchange-service" target="11" />
       <module name="limit-services" target="11" />
       <module name="microservices" target="1.8" />
@@ -24,6 +26,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="currency-conversion-service" options="-parameters" />
       <module name="currency-exchange-service" options="-parameters" />
       <module name="limit-services" options="-parameters" />
       <module name="microservices" options="-parameters" />

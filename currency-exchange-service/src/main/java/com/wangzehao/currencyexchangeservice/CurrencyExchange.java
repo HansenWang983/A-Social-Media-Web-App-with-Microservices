@@ -1,18 +1,27 @@
 package com.wangzehao.currencyexchangeservice;
 
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.math.BigDecimal;
 
-public class currencyExchange {
+@Entity
+public class CurrencyExchange {
+    @Id
     private Long id;
+
+    @Column(name="currency_from")
     private String from;
+
+    @Column(name="currency_to")
     private String to;
     private BigDecimal multiple;
     private String environment;
 
-    public currencyExchange(){}
+    public CurrencyExchange(){}
 
-    public currencyExchange(Long id, String from, String to, BigDecimal multiple, String environment) {
+    public CurrencyExchange(Long id, String from, String to, BigDecimal multiple, String environment) {
         this.id = id;
         this.from = from;
         this.to = to;
