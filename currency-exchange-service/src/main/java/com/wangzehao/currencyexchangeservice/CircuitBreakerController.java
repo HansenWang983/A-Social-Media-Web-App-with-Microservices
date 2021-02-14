@@ -12,15 +12,18 @@ import org.springframework.web.client.RestTemplate;
 public class CircuitBreakerController {
     private Logger logger = LoggerFactory.getLogger(CircuitBreakerController.class);
 
-    @GetMapping("/circuit-break-api")
+    @GetMapping("/sample-api")
     @Retry(name="sample-api", fallbackMethod = "fallbackResponse")
+    //@CircuitBreaker(name = "default", fallbackMethod = "hardcodedResponse")
+    //@RateLimiter(name="default")
     public String circuitBreakerApi(){
-        logger.info("circuitBreakerApi received");
+        logger.info("sample api received");
         ResponseEntity<String> forEntity = new RestTemplate().getForEntity("http://127.0.0.1:8000/", String.class);
         return forEntity.getBody();
+//        return "sample-api";
     }
 
-    public String fallbackResponse(){
+    public String fallbackResponse(Exception ex){
         return "fall-back-response";
     }
 }
